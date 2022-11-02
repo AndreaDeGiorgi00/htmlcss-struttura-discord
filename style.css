@@ -11,12 +11,23 @@
     border: 1px dotted black;
 }
 
+.al-max{
+    
+    height: 500px;
+}
+
+
+.al-min{
+    height: 300px;
+}
+
 /*root*/
 
 :root{
     
 }
 
+/*header*/
 header{
     width: 100%;
     padding: 30px 110px;
@@ -58,7 +69,7 @@ nav{
     line-height: 50px;
 }
 
-/*fine header*/
+/*blocco intro*/
 
 .benvenuto{
     min-height: 300px;
@@ -68,4 +79,35 @@ nav{
 .contenitore-intro{
     background-color: blue;
     padding:50px 30px;
+}
+/*main*/
+
+
+main{
+    height:100%;
+
+}
+
+
+/*utilities*/
+.d{
+    background-color: pink;
+    flex-basis:300px
+}
+.s{
+     background-color: lightblue; 
+     flex-basis: 400px;  
+}
+
+.c{
+    background-color: grey;
+}
+
+
+
+.contenitore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
