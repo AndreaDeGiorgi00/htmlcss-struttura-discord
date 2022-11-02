@@ -1,0 +1,59 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*utilities*/
+
+.b{
+    border: 1px dotted black;
+}
+
+/*root*/
+
+:root{
+    
+}
+
+header{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: aquamarine;
+}
+
+.barra-introduttiva{
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+    justify-content:space-between;
+    background-color: yellowgreen;
+    align-items: center;
+    
+
+}
+
+
+h2{
+    
+    height:50%;
+    text-align: center;
+    
+}
+
+.logo{
+    text-align: left;
+}
+
+.login{
+    text-align: right;
+    
+}
+
+nav{
+    width: 60%;
+    display: block;
+    min-height: 50px;
+    line-height: 50px;
+}
