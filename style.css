@@ -143,3 +143,11 @@ main{
 .contenitore-tabella{
     display: flex;
 }
+
+.contenitore-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px 5px;
+    margin: auto;
+}
