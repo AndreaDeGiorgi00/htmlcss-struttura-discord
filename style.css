@@ -11,11 +11,10 @@
     border: 1px dotted black;
 }
 
-.al-max{
-    
-    height: 500px;
-}
 
+.lar-max{
+    flex-basis: 700px;
+}
 
 .al-min{
     height: 300px;
@@ -90,13 +89,20 @@ main{
 
 
 /*utilities*/
+
+
+.g{
+    background-color: green;
+}
+
 .d{
+    
     background-color: pink;
     flex-basis:300px
 }
 .s{
-     background-color: lightblue; 
-     flex-basis: 400px;  
+    background-color: lightblue; 
+    flex-basis: 400px;  
 }
 
 .c{
@@ -109,5 +115,10 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:50px 30px;
 
+}
+
+.tante-informazioni{
+    height: 800px;
 }
